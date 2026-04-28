@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOL | Systems Engineer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        <img src="images.png" alt="UPLA">
+        <h1>Base de datos <span>.II</span></h1>
+    </div>
+    <nav>
+        <a href="#inicio">👋Inicio</a>
+        <a href="#sobre">📚Perfil</a>
+        <a href="#proyectos">🚀Semanas</a>
+        <button onclick="login()" class="btn-admin">🔥Admin_Access</button>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <div class="hero-content">
+        <h2 class="neon-text">PHOL ANTONI</h2>
+        <h3 class="glitch">Ingeniería de Sistemas y Computación</h3>
+        <p class="description">Mi repositorio de trabajos es como un archivo vivo de mi crecimiento. En él guardo proyectos, 
+            tareas y creaciones que he desarrollado a lo largo del tiempo, cada uno reflejando lo que he aprendido y las habilidades que he ido construyendo.
+            Al recorrerlo, puedo ver mis primeros intentos, llenos de errores pero también de esfuerzo, y compararlos con trabajos más 
+            recientes, donde ya se nota mayor claridad y dominio. No es solo una colección de documentos, sino una historia de progreso, dedicación y aprendizaje constante.</p>
+        <a href="#proyectos" class="btn-main">EJECUTAR PROYECTOS</a>
+    </div>
+</section>
+
+<section id="sobre" class="sobre">
+    <div class="sobre-card">
+        <div class="foto-container">
+            <img src="WhatsApp Image 2025-09-29 at 10.46.00 PM.jpeg" class="foto" alt="Phol Antoni">
+            <div class="aura"></div>
+        </div>
+        <div class="sobre-texto">
+            <h2>Estudiante de Ingeniería</h2>
+            <p><strong>Nombre:</strong> Phol Antoni Canez Quispe</p>
+            <p><strong>Institución:</strong> Universidad Peruana Los Andes (UPLA)</p>
+            <p class="perfil-desc">👋 Hola📚  soy estudiante en constante aprendizaje, siempre buscando mejorar en cada trabajo que realizo. 
+                Me esfuerzo por cumplir mis metas y dar lo mejor de mí en cada proyecto. Cada experiencia me ayuda a ser mejor y a construir poco a poco mi camino.
+                🚀 Objetivo:
+                Seguir creciendo profesionalmente y adquirir nuevas habilidades cada día.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos" class="seccion">
+    <div class="titulo-seccion">
+        <h3>REPOSITORIO</h3>
+        <div class="line"></div>
+    </div>
+    <div id="misProyectos" class="grid-container">
+        </div>
+</section>
+
+<div id="admin" class="modal-admin">
+    <div class="modal-content">
+        <h2>Panel_de_Control</h2>
+        <p style="color: #ffcc00; font-size: 11px; margin-bottom: 20px;">* Sincroniza datos.json para actualizar el repositorio.</p>
+        <select id="select-semana"></select>
+        <button onclick="cerrar()" class="btn-cancel">Cerrar Sesión</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

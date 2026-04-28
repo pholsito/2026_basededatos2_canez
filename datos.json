@@ -1,0 +1,107 @@
+{
+    "1": {
+      "info": "Introducción a la asignatura y configuración del entorno de Base de Datos.",
+      "tareas": {
+        "1": { "titulo": "Instalación de Software", "enlace": "#" },
+        "2": { "titulo": "Tarea de Investigación", "enlace": "#" },
+        "3": { "titulo": "Práctica de Clase", "enlace": "#" }
+      }
+    },
+    "2": {
+      "info": "Modelado de datos avanzado y normalización de estructuras.",
+      "tareas": {
+        "1": { "titulo": "Diagrama Entidad Relación", "enlace": "#" },
+        "2": { "titulo": "Ejercicios Normalización", "enlace": "#" }
+      }
+    },
+    "3": {
+      "info": "Consultas SQL complejas y funciones agregadas.",
+      "tareas": {
+        "1": { "titulo": "Laboratorio SQL 01", "enlace": "#" },
+        "2": { "titulo": "Reporte de Datos", "enlace": "#" },
+        "3": { "titulo": "Cuestionario Virtual", "enlace": "#" },
+        "4": { "titulo": "Trabajo Grupal", "enlace": "#" }
+      }
+    },
+    "4": {
+      "info": "Manejo de Transacciones y Procedimientos Almacenados.",
+      "tareas": {
+        "1": { "titulo": "Guía de Procedimientos", "enlace": "#" }
+      }
+    },
+    "5": {
+      "info": "Triggers y Automatización de Procesos en BD.",
+      "tareas": {
+        "1": { "titulo": "Scripts de Automatización", "enlace": "#" },
+        "2": { "titulo": "Práctica Calificada", "enlace": "#" }
+      }
+    },
+    "6": {
+      "info": "Optimización de Consultas e Indexación.",
+      "tareas": {
+        "1": { "titulo": "Análisis de Performance", "enlace": "#" }
+      }
+    },
+    "7": {
+      "info": "Repaso de contenidos y preparación para el parcial.",
+      "tareas": {
+        "1": { "titulo": "Balotario de Preguntas", "enlace": "#" }
+      }
+    },
+    "8": {
+      "info": "Evaluación Parcial - I Fase.",
+      "tareas": {
+        "1": { "titulo": "Examen Parcial", "enlace": "#" }
+      }
+    },
+    "9": {
+      "info": "Seguridad en Base de Datos y Control de Accesos.",
+      "tareas": {
+        "1": { "titulo": "Configuración de Roles", "enlace": "#" }
+      }
+    },
+    "10": {
+      "info": "Bases de Datos NoSQL y Big Data.",
+      "tareas": {
+        "1": { "titulo": "Investigación NoSQL", "enlace": "#" }
+      }
+    },
+    "11": {
+      "info": "Conectividad de Aplicaciones con BD (API/Web).",
+      "tareas": {
+        "1": { "titulo": "Proyecto de Conexión", "enlace": "#" }
+      }
+    },
+    "12": {
+      "info": "Administración de Servidores de Datos en la Nube.",
+      "tareas": {
+        "1": { "titulo": "Despliegue Cloud", "enlace": "#" }
+      }
+    },
+    "13": {
+      "info": "Minería de Datos e Inteligencia de Negocios.",
+      "tareas": {
+        "1": { "titulo": "Análisis de Datos", "enlace": "#" }
+      }
+    },
+    "14": {
+      "info": "Data Warehousing y Procesos ETL.",
+      "tareas": {
+        "1": { "titulo": "Diseño de Cubos", "enlace": "#" }
+      }
+    },
+    "15": {
+      "info": "Presentación de Proyecto Final de Semestre.",
+      "tareas": {
+        "1": { "titulo": "Documentación Final", "enlace": "#" },
+        "2": { "titulo": "Código Fuente", "enlace": "#" },
+        "3": { "titulo": "Exposición", "enlace": "#" }
+      }
+    },
+    "16": {
+      "info": "Evaluación Final - II Fase.",
+      "tareas": {
+        "1": { "titulo": "Examen Final", "enlace": "#" }
+      }
+    }
+  }
