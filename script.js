@@ -26,7 +26,13 @@ async function renderSemanas() {
     cont.innerHTML = "<p style='color:#00f3ff'>Accediendo a la base de datos...</p>";
 
     try {
-        const res = await fetch('datos.json');
+       // En lugar de fetch, usa la variable directamente para probar
+const bd = {
+  "Semana 1": { "info": "Introducción a la base de datos", "tareas": { "1": { "titulo": "Informe Técnico", "enlace": "https://pdf.ac/QONm7fAQ0" } } },
+  "Semana 2": { "info": "Gestores de base de datos.", "tareas": { "1": { "titulo": "Diagrama de Entidad Relacion", "enlace": "https://pdf.ac/ofEHoVEu" } } },
+  "Semana 3": { "info": "Diseño de arquitectura.", "tareas": { "1": { "titulo": "Diseño de arquitectura", "enlace": "https://canva.link/xgfegwk4o2uuq37" } } }
+};
+// Borra o comenta la línea del fetch y el res.json()
         const bd = await res.json();
         cont.innerHTML = "";
 
