@@ -64,23 +64,4 @@ const data = bd[`Semana ${i}`] || bd[i] || { info: "Módulo pendiente de carga d
         cont.innerHTML = "<p style='color:orange;'>⚠️ Error de enlace: Sube 'datos.json' a tu repositorio.</p>";
     }
 }
-"Semana 1": {
-      "info": " Introducción a la base de datoso",
-      "tareas": {
-        "1": { "titulo": "Informe Técnico", "enlace": "https://pdf.ac/QONm7fAQ0" },
-        "2": { "titulo": "Tipo de Arquitectura de base de datos", "enlace": "https://pdf.ac/jMfm6OxFcq" },
-       
-      }
-    },
-    "Semana 2": {
-      "info": "Gestores de base de datos.",
-      "tareas": {
-        "1": { "titulo": "Diagrama de Entidad Relacion", "enlace": "https://pdf.ac/ofEHoVEu" },
-        "2": { "titulo": "Manual de Instalación de SQL Server 2025 Developer Edition", "enlace": "https://pdf.ac/SnbDbYHOV" }
-      }
-    },
-    "Semana 3": {
-      "info": "Diseño de arquitectura de base de datos.",
-      "tareas": {
-        "1": { "titulo": "Diseño de arquitectura de base de datos", "enlace": "https://canva.link/xgfegwk4o2uuq37" },
-      }
+
