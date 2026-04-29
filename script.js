@@ -31,7 +31,8 @@ async function renderSemanas() {
         cont.innerHTML = "";
 
         for (let i = 1; i <= 16; i++) {
-            const data = bd[i] || { info: "Módulo pendiente de carga de datos.", tareas: {} };
+           // Esto buscará "Semana 1", "Semana 2", etc.
+const data = bd[`Semana ${i}`] || bd[i] || { info: "Módulo pendiente de carga de datos.", tareas: {} };
             const div = document.createElement("div");
             div.className = "semana-card";
             
